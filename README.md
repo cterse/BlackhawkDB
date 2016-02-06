@@ -24,31 +24,32 @@ Let's follow a particular naming convention and working technique to ease the de
 <h3>Database Structure:</h3>
 
 - The database contains 5 tables:
+
 1.	criminal<br>
-		Description:		Contains criminal statistics. 
-		No. of Columns:		7
-		Columns:			ID, SSN, CRIME_NO, SENTENCE, STATUS, ARRESTED_AT, ARREST_DETAILS, PEN_ID
-		Column Details:		ID: 			(PRIMARY KEY, AUTO INCREMENT)
-							SSN:			Social Security Number. Maps to CRIMINAL_INFO table. (FOREIGN KEY)
-							CRIME_NO:		Number of crime committed. Maps to CRIME table (FOREIGN KEY, NOT NULL).
-							SENTENCE:		Punishment announced to the criminal.
-							ARRESTED_AT:	Id of precinct arrested at. Maps to PRECINCT table (FOREIGN KEY).
-							ARREST_DETAILS:	Extra details about the arrest.
+		Description:		Contains criminal statistics.<br> 
+		No. of Columns:		7<br>
+		Columns:			ID, SSN, CRIME_NO, SENTENCE, STATUS, ARRESTED_AT, ARREST_DETAILS, PEN_ID<br>
+		Column Details:		ID: 			(PRIMARY KEY, AUTO INCREMENT)<br>
+							SSN:			Social Security Number. Maps to CRIMINAL_INFO table. (FOREIGN KEY)<br>
+							CRIME_NO:		Number of crime committed. Maps to CRIME table (FOREIGN KEY, NOT NULL)<br>
+							SENTENCE:		Punishment announced to the criminal.<br>
+							ARRESTED_AT:	Id of precinct arrested at. Maps to PRECINCT table (FOREIGN KEY).<br>
+							ARREST_DETAILS:	Extra details about the arrest.<br>
 							PEN_ID:			Id of penetentiary the criminal is presently at. Maps to PEN table (FORIGN KEY).	 			
 
-2.	criminal_info
-		Description:		Contains criminal's personal data.
-		No. of Columns:		9
-		Columns:			SSN, NAME, DOB, AGE, SEX, NATIONALITY, CURRENT_ADDRESS, CONTACT_NO, REMARKS
-		Coumn Details:		SSN:				Social Security Number. (PRIMARY KEY, AUTO INCREMENT) 
-							NAME:				Name. (NOT NULL)
-							DOB:				Date of Birth.
-							AGE:				Age.
-							SEX:				Gender. (NOT NULL)
-							NATIONALITY:		Nationality.
-							CURRENT_ADDRESS:	Current place of residence.
-							CONTACT_NO:			Contact number.
-							REMARKS:			Extra remarks about the criminal.
+2.	criminal_info<br>
+		Description:		Contains criminal's personal data.<br>
+		No. of Columns:		9<br>
+		Columns:			SSN, NAME, DOB, AGE, SEX, NATIONALITY, CURRENT_ADDRESS, CONTACT_NO, REMARKS<br>
+		Coumn Details:		SSN:				Social Security Number. (PRIMARY KEY, AUTO INCREMENT)<br> 
+							NAME:				Name. (NOT NULL)<br>
+							DOB:				Date of Birth.<br>
+							AGE:				Age.<br>
+							SEX:				Gender. (NOT NULL)<br>
+							NATIONALITY:		Nationality.<br>
+							CURRENT_ADDRESS:	Current place of residence.<br>
+							CONTACT_NO:			Contact number.<br>
+							REMARKS:			Extra remarks about the criminal.<br>
 
 3.	crime
 		Description:		Information about the crimes.
