@@ -21,10 +21,10 @@ Let's follow a particular naming convention and working technique to ease the de
 
 ------------------------------
 
-<h3>Database Structure</h3>:
+<h3>Database Structure:</h3>
 
 - The database contains 5 tables:
-1.	criminal
+1.	criminal<br>
 		Description:		Contains criminal statistics. 
 		No. of Columns:		7
 		Columns:			ID, SSN, CRIME_NO, SENTENCE, STATUS, ARRESTED_AT, ARREST_DETAILS, PEN_ID
