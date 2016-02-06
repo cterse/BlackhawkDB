@@ -21,7 +21,7 @@ Let's follow a particular naming convention and working technique to ease the de
 
 ------------------------------
 
-Database Structure:
+<h3>Database Structure</h3>:
 
 - The database contains 5 tables:
 1.	criminal
