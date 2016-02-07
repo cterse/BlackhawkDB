@@ -138,6 +138,55 @@ Let's follow some simple naming conventions and working techniques to ease the d
 
 
 3.	crime
+
+	<table>
+		<tr>
+			<TD>Description:</TD>
+			<td>Personal information of the criminal.</td>
+		</tr>
+		<tr>
+			<td>No. of columns:</td>
+			<td>9</td>
+		</tr>
+	</table>
+
+	<table>
+	  	<tr>
+		    <th>SSN</th>
+		    <th>NAME</th> 
+		    <th>DOB</th>
+		    <th>AGE</th>
+		    <th>SEX</th>
+		    <th>NATIONALITY</th>
+		    <th>CURRENT_ADDRESS</th>
+		    <th>CONTACT_NO</th>
+		    <th>REMARKS</th>
+	  	</tr>
+	  	<tr>
+	    	<td>Social Security Number. Used as ID</td>
+	    	<td>Full Name</td>
+	    	<td>Date of birth</td>
+	    	<td>Age in years</td>
+	    	<td>Gender</td>
+	    	<td>Nationality</td>
+	    	<td>Cuurent address</td>
+	    	<td>Contact Number(s)</td>
+	    	<td>Remarks</td>
+	 	</tr>
+	 	<tr>
+	 		<td>PRIMARY KEY, AUTO INCREMENT</td>
+	 		<td>NOT NULL</td>
+	 		<td></td>
+	 		<td></td>
+	 		<td>NOT NULL</td>
+	 		<td></td>
+	 		<td></td>
+	 		<td></td>
+	 		<td></td>
+	 	</tr>
+	</table>
+
+
 		Description:		Information about the crimes.
 		No. of Columns:		5
 		Column:				NO., DESCRIPTION, PUNISHMENT, TYPE, EXTRA
@@ -148,6 +197,54 @@ Let's follow some simple naming conventions and working techniques to ease the d
 							EXTRA:			Extra details about the crime.
 
 4.	precinct
+
+	<table>
+		<tr>
+			<TD>Description:</TD>
+			<td>Personal information of the criminal.</td>
+		</tr>
+		<tr>
+			<td>No. of columns:</td>
+			<td>9</td>
+		</tr>
+	</table>
+
+	<table>
+	  	<tr>
+		    <th>SSN</th>
+		    <th>NAME</th> 
+		    <th>DOB</th>
+		    <th>AGE</th>
+		    <th>SEX</th>
+		    <th>NATIONALITY</th>
+		    <th>CURRENT_ADDRESS</th>
+		    <th>CONTACT_NO</th>
+		    <th>REMARKS</th>
+	  	</tr>
+	  	<tr>
+	    	<td>Social Security Number. Used as ID</td>
+	    	<td>Full Name</td>
+	    	<td>Date of birth</td>
+	    	<td>Age in years</td>
+	    	<td>Gender</td>
+	    	<td>Nationality</td>
+	    	<td>Cuurent address</td>
+	    	<td>Contact Number(s)</td>
+	    	<td>Remarks</td>
+	 	</tr>
+	 	<tr>
+	 		<td>PRIMARY KEY, AUTO INCREMENT</td>
+	 		<td>NOT NULL</td>
+	 		<td></td>
+	 		<td></td>
+	 		<td>NOT NULL</td>
+	 		<td></td>
+	 		<td></td>
+	 		<td></td>
+	 		<td></td>
+	 	</tr>
+	</table>
+
 		Description:		Information about the police stations.
 		No. of Columns:		5
 		Columns:			ID, HEAD, LOCATION, NO_OF_CASES, STAFF_STRENGTH
@@ -158,6 +255,53 @@ Let's follow some simple naming conventions and working techniques to ease the d
 							STAFF_STRENGTH:	Present no. of working staff. (NOT NULL)
 
 5.	pen
+
+	<table>
+		<tr>
+			<TD>Description:</TD>
+			<td>Personal information of the criminal.</td>
+		</tr>
+		<tr>
+			<td>No. of columns:</td>
+			<td>9</td>
+		</tr>
+	</table>
+
+	<table>
+	  	<tr>
+		    <th>SSN</th>
+		    <th>NAME</th> 
+		    <th>DOB</th>
+		    <th>AGE</th>
+		    <th>SEX</th>
+		    <th>NATIONALITY</th>
+		    <th>CURRENT_ADDRESS</th>
+		    <th>CONTACT_NO</th>
+		    <th>REMARKS</th>
+	  	</tr>
+	  	<tr>
+	    	<td>Social Security Number. Used as ID</td>
+	    	<td>Full Name</td>
+	    	<td>Date of birth</td>
+	    	<td>Age in years</td>
+	    	<td>Gender</td>
+	    	<td>Nationality</td>
+	    	<td>Cuurent address</td>
+	    	<td>Contact Number(s)</td>
+	    	<td>Remarks</td>
+	 	</tr>
+	 	<tr>
+	 		<td>PRIMARY KEY, AUTO INCREMENT</td>
+	 		<td>NOT NULL</td>
+	 		<td></td>
+	 		<td></td>
+	 		<td>NOT NULL</td>
+	 		<td></td>
+	 		<td></td>
+	 		<td></td>
+	 		<td></td>
+	 	</tr>
+	</table>
 		Description:		Information about jails, correctional facilites and penetentiaries.
 		No. of Columns:		7
 		Columns:			ID, NAME, LOCATION, WARDEN, CAPACITY, GRADE, NO_OF_PRISONERS
@@ -173,14 +317,15 @@ Let's follow some simple naming conventions and working techniques to ease the d
 
 <div id="howto"></div>
 <h3>How To's:</h3>
+<ol>
+	<li><h4>Connect To Database Via the Command Line:</h4></li>
+		1.	Go To c:\> in the cli.
+		2.	Type "set oracle_sid=[database-name]".
+		3.	Enter the username and password.
+		4.	Confirm connection.
 
-<h4>Connect To Database Via the Command Line:</h4>
+	<li><h4>Query to get database name in Oracle SQL:</h4></li>
+		SELECT * FROM v$database or SELECT ora_database_name FROM dual
+</ol>
 
-1.	Go To c:\> in the cli.
-2.	Type "set oracle_sid=[database-name]".
-3.	Enter the username and password.
-4.	Confirm connection.
-
-<h4>Query to get database name in Oracle SQL:</h4>
-SELECT * FROM v$database or SELECT ora_database_name FROM dual
 
