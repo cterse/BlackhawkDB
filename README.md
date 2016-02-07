@@ -106,15 +106,15 @@ Let's follow some simple naming conventions and working techniques to ease the d
 <div id="howto"></div>
 <h3>How To's:</h3>
 
--- Connect To Database Via the Command Line:
+<h4>Connect To Database Via the Command Line:</h4>
 
 1.	Go To c:\> in the cli.
 2.	Type "set oracle_sid=[database-name]".
 3.	Enter the username and password.
 4.	Confirm connection.
 
--- Query to get database name in Oracle SQL:
+<h4>Query to get database name in Oracle SQL:</h4>
+<div style="background:lavender;">
+	<p style="font-family:courier new,courier,monospace">SELECT * FROM v$database or SELECT ora_database_name FROM dual</p>
+</div>
 
-SELECT * FROM v$database
-or
-SELECT ora_database_name FROM dual
