@@ -7,6 +7,17 @@ By Chinmay, Pratik and Rahul.
 
 ------------------------------
 
+<h3>Index</h3>
+
+<ol>
+<li><a href="#conventions">Conventions</a></li>
+<li><a href="#structure">Database Structure</a></li>
+<li><a href="#howto">How To's</a></li>
+</ol>
+
+------------------------------
+
+<div id="conventions"></div>
 <h3>Conventions:</h3>
 
 Let's follow a particular naming convention and working technique to ease the development process.
@@ -23,6 +34,7 @@ Let's follow a particular naming convention and working technique to ease the de
 
 ------------------------------
 
+<div id="structure"></div>
 <h3>Database Structure:</h3>
 
 - The database contains 5 tables:
@@ -87,6 +99,7 @@ Let's follow a particular naming convention and working technique to ease the de
 
 ------------------------------
 
+<div id="howto"></div>
 <h3>How To's:</h3>
 
 -- Connect To Database Via the Command Line:
