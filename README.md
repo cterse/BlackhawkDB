@@ -44,8 +44,17 @@ Let's follow some simple naming conventions and working techniques to ease the d
 - The database contains 5 tables:
 
 1.	<b>criminal</b><br>
-	&nbsp;&nbsp;&nbsp;Description:		Contains criminal statistics.<br> 
-	&nbsp;&nbsp;&nbsp;No. of Columns:		7<br>
+	
+	<table>
+		<tr>
+			<TD>Description:</TD>
+			<td>Information about criminal whereabouts and arrest details.</td>
+		</tr>
+		<tr>
+			<td>No. of columns:</td>
+			<td>7</td>
+		</tr>
+	</table>
 
 <table style="width:100%">
   	<tr>
@@ -79,8 +88,8 @@ Let's follow some simple naming conventions and working techniques to ease the d
 	 			
 
 2.	<b>criminal_info</b><br>
-		Description:		Contains criminal's personal data.<br>
-		No. of Columns:		9<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;Description:		Contains criminal's personal data.<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;No. of Columns:		9<br>
 		Columns:			SSN, NAME, DOB, AGE, SEX, NATIONALITY, CURRENT_ADDRESS, CONTACT_NO, REMARKS<br>
 		Coumn Details:		SSN:				Social Security Number. (PRIMARY KEY, AUTO INCREMENT)<br> 
 							NAME:				Name. (NOT NULL)<br>
