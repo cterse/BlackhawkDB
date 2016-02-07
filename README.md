@@ -45,7 +45,7 @@ Let's follow some simple naming conventions and working techniques to ease the d
 
 1.	<b>criminal</b><br>
 	
-	<table>
+	<table border="0">
 		<tr>
 			<TD>Description:</TD>
 			<td>Information about criminal whereabouts and arrest details.</td>
