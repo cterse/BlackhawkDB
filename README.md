@@ -152,114 +152,71 @@ Let's follow some simple naming conventions and working techniques to ease the d
 
 	<table>
 	  	<tr>
-		    <th>SSN</th>
-		    <th>NAME</th> 
-		    <th>DOB</th>
-		    <th>AGE</th>
-		    <th>SEX</th>
-		    <th>NATIONALITY</th>
-		    <th>CURRENT_ADDRESS</th>
-		    <th>CONTACT_NO</th>
-		    <th>REMARKS</th>
+		    <th>NO</th>
+		    <th>DESCRIPTION</th> 
+		    <th>PUNISHMENT</th>
+		    <th>TYPE</th>
+		    <th>EXTRA</th>
 	  	</tr>
 	  	<tr>
-	    	<td>Social Security Number. Used as ID</td>
-	    	<td>Full Name</td>
-	    	<td>Date of birth</td>
-	    	<td>Age in years</td>
-	    	<td>Gender</td>
-	    	<td>Nationality</td>
-	    	<td>Cuurent address</td>
-	    	<td>Contact Number(s)</td>
-	    	<td>Remarks</td>
+	    	<td>IPC number of the crime</td>
+	    	<td>Crime description</td>
+	    	<td>Min-max punishment for the crime</td>
+	    	<td>Pardonable / Non-pardonable</td>
+	    	<td>Extra information</td>
 	 	</tr>
 	 	<tr>
 	 		<td>PRIMARY KEY, AUTO INCREMENT</td>
 	 		<td>NOT NULL</td>
-	 		<td></td>
-	 		<td></td>
 	 		<td>NOT NULL</td>
 	 		<td></td>
-	 		<td></td>
-	 		<td></td>
-	 		<td></td>
+	 		<td></td>	 		
 	 	</tr>
 	</table>
-
-
-		Description:		Information about the crimes.
-		No. of Columns:		5
-		Column:				NO., DESCRIPTION, PUNISHMENT, TYPE, EXTRA
-		Column Details:		NO:				IPC Crime number. (PRIMARY KEY, AUTO INCREMENT)
-							DESCRIPTION:	Description of the crime. (NOT NULL)
-							PUNISHMENT:		Min to max punishment. (NOT NULL)
-							TYPE:			Pardonable or Non-pardonable.		
-							EXTRA:			Extra details about the crime.
 
 4.	precinct
 
 	<table>
 		<tr>
 			<TD>Description:</TD>
-			<td>Personal information of the criminal.</td>
+			<td>Information about the precincts</td>
 		</tr>
 		<tr>
 			<td>No. of columns:</td>
-			<td>9</td>
+			<td>5</td>
 		</tr>
 	</table>
 
 	<table>
 	  	<tr>
-		    <th>SSN</th>
-		    <th>NAME</th> 
-		    <th>DOB</th>
-		    <th>AGE</th>
-		    <th>SEX</th>
-		    <th>NATIONALITY</th>
-		    <th>CURRENT_ADDRESS</th>
-		    <th>CONTACT_NO</th>
-		    <th>REMARKS</th>
+		    <th>ID</th>
+		    <th>HEAD</th> 
+		    <th>LOCATION</th>
+		    <th>NO_OF_CASES</th>
+		    <th>STAFF_STRENGTH</th>
 	  	</tr>
 	  	<tr>
-	    	<td>Social Security Number. Used as ID</td>
-	    	<td>Full Name</td>
-	    	<td>Date of birth</td>
-	    	<td>Age in years</td>
-	    	<td>Gender</td>
-	    	<td>Nationality</td>
-	    	<td>Cuurent address</td>
-	    	<td>Contact Number(s)</td>
-	    	<td>Remarks</td>
+	    	<td>Simple ID</td>
+	    	<td>Head of precinct</td>
+	    	<td>Location of precinct</td>
+	    	<td>Current number of open cases at the precinct</td>
+	    	<td>Current staff strength at the precinct</td>
 	 	</tr>
 	 	<tr>
 	 		<td>PRIMARY KEY, AUTO INCREMENT</td>
-	 		<td>NOT NULL</td>
-	 		<td></td>
 	 		<td></td>
 	 		<td>NOT NULL</td>
-	 		<td></td>
-	 		<td></td>
-	 		<td></td>
-	 		<td></td>
+	 		<td>NOT NULL</td>
+	 		<td>NOT NULL</td>
 	 	</tr>
 	</table>
-
-		Description:		Information about the police stations.
-		No. of Columns:		5
-		Columns:			ID, HEAD, LOCATION, NO_OF_CASES, STAFF_STRENGTH
-		Column Details:		ID:				(PPRIMARY KEY, AUTO INCREMENT)
-							HEAD:			Head of the precinct.
-							LOCATION:		Location of the precinct. (NOT NULL)
-							NO_OF_CASES:	Present no. of open cases.
-							STAFF_STRENGTH:	Present no. of working staff. (NOT NULL)
 
 5.	pen
 
 	<table>
 		<tr>
 			<TD>Description:</TD>
-			<td>Information abou the penetentiaries.</td>
+			<td>Information about the penetentiaries.</td>
 		</tr>
 		<tr>
 			<td>No. of columns:</td>
