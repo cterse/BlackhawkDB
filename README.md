@@ -7,6 +7,8 @@ By Chinmay, Pratik and Rahul.
 
 ------------------------------
 
+<h3>Conventions:</h3>
+
 Let's follow a particular naming convention and working technique to ease the development process.
 
 - Always save the important queries which are executed successfully.
@@ -85,7 +87,7 @@ Let's follow a particular naming convention and working technique to ease the de
 
 ------------------------------
 
-How To's:
+<h3>How To's:</h3>
 
 -- Connect To Database Via the Command Line:
 
