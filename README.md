@@ -13,6 +13,7 @@ By Chinmay, Pratik and Rahul.
 	<li><a href="#conventions">Conventions</a></li>
 	<li><a href="#structure">Database Structure</a></li>
 	<li><a href="#howto">How To's</a></li>
+	<li><a href="#ref">References</a></li>
 </ol>
 
 ------------------------------
@@ -271,4 +272,18 @@ Let's follow some simple naming conventions and working techniques to ease the d
 		SELECT * FROM v$database or SELECT ora_database_name FROM dual
 </ol>
 
+------------------------------
 
+<div id="ref"></div>
+<h3>References:</h3>
+<ol>
+	<li><a href=" Oracle Database Express Edition 10g Release 2 (10.2)">Oracle Database Express Edition 10g Release 2 (10.2) Documentation</a></li>
+	<li><a href="http://www.techonthenet.com/oracle/index.php">Tech On The Net Oracle/PLSQL Tutorials</a></li>
+	<li>
+		YouTube Videos:
+		<ol>
+			<li><a href="https://www.youtube.com/watch?v=e_pGyzJrmqU">Distributed Databases - Transparency, Replication, Horizontal and Vertical Fragmentation, Allocation</a></li>
+			<li><a href="https://www.youtube.com/watch?v=V7m2AKdASy8&list=PL723DDDD9219A5AF5">CS712 - Distributed Database Management Systems</a></li>
+		</ol>
+	</li>
+</ol>
