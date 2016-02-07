@@ -43,9 +43,9 @@ Let's follow some simple naming conventions and working techniques to ease the d
 
 - The database contains 5 tables:
 
-1.	criminal<br>
-		Description:		Contains criminal statistics.<br> 
-		No. of Columns:		7<br>
+1.	<b>criminal</b><br>
+	&nbsp;&nbsp;&nbsp;Description:		Contains criminal statistics.<br> 
+	&nbsp;&nbsp;&nbsp;No. of Columns:		7<br>
 
 <table style="width:100%">
   	<tr>
@@ -76,18 +76,9 @@ Let's follow some simple naming conventions and working techniques to ease the d
  		<td>FOREIGN KEY</td>
  	</tr>
 </table>
+	 			
 
-
-		Columns:			ID, SSN, CRIME_NO, SENTENCE, STATUS, ARRESTED_AT, ARREST_DETAILS, PEN_ID<br>
-		Column Details:		ID: 			(PRIMARY KEY, AUTO INCREMENT)<br>
-							SSN:			Social Security Number. Maps to CRIMINAL_INFO table. (FOREIGN KEY)<br>
-							CRIME_NO:		Number of crime committed. Maps to CRIME table (FOREIGN KEY, NOT NULL)<br>
-							SENTENCE:		Punishment announced to the criminal.<br>
-							ARRESTED_AT:	Id of precinct arrested at. Maps to PRECINCT table (FOREIGN KEY).<br>
-							ARREST_DETAILS:	Extra details about the arrest.<br>
-							PEN_ID:			Id of penetentiary the criminal is presently at. Maps to PEN table (FORIGN KEY).	 			
-
-2.	criminal_info<br>
+2.	<b>criminal_info</b><br>
 		Description:		Contains criminal's personal data.<br>
 		No. of Columns:		9<br>
 		Columns:			SSN, NAME, DOB, AGE, SEX, NATIONALITY, CURRENT_ADDRESS, CONTACT_NO, REMARKS<br>
