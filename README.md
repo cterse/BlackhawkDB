@@ -56,7 +56,7 @@ Let's follow some simple naming conventions and working techniques to ease the d
 		</tr>
 	</table>
 
-<table style="width:100%">
+<table border="0">
   	<tr>
 	    <th>ID</th>
 	    <th>SSN</th> 
