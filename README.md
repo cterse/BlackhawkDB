@@ -10,9 +10,9 @@ By Chinmay, Pratik and Rahul.
 <h3>Index</h3>
 
 <ol>
-<li><a href="#conventions">Conventions</a></li>
-<li><a href="#structure">Database Structure</a></li>
-<li><a href="#howto">How To's</a></li>
+	<li><a href="#conventions">Conventions</a></li>
+	<li><a href="#structure">Database Structure</a></li>
+	<li><a href="#howto">How To's</a></li>
 </ol>
 
 ------------------------------
@@ -259,59 +259,45 @@ Let's follow some simple naming conventions and working techniques to ease the d
 	<table>
 		<tr>
 			<TD>Description:</TD>
-			<td>Personal information of the criminal.</td>
+			<td>Information abou the penetentiaries.</td>
 		</tr>
 		<tr>
 			<td>No. of columns:</td>
-			<td>9</td>
+			<td>7</td>
 		</tr>
 	</table>
 
 	<table>
 	  	<tr>
-		    <th>SSN</th>
+		    <th>ID</th>
 		    <th>NAME</th> 
-		    <th>DOB</th>
-		    <th>AGE</th>
-		    <th>SEX</th>
-		    <th>NATIONALITY</th>
-		    <th>CURRENT_ADDRESS</th>
-		    <th>CONTACT_NO</th>
-		    <th>REMARKS</th>
+		    <th>LOCATION</th>
+		    <th>WARDEN</th>
+		    <th>CAPACITY</th>
+		    <th>GRADE</th>
+		    <th>NO_OF_PRISONERS</th>
+		    
 	  	</tr>
 	  	<tr>
-	    	<td>Social Security Number. Used as ID</td>
-	    	<td>Full Name</td>
-	    	<td>Date of birth</td>
-	    	<td>Age in years</td>
-	    	<td>Gender</td>
-	    	<td>Nationality</td>
-	    	<td>Cuurent address</td>
-	    	<td>Contact Number(s)</td>
-	    	<td>Remarks</td>
+	    	<td>Simple ID.</td>
+	    	<td>Name of penetentiary</td>
+	    	<td>Location of penetentiary</td>
+	    	<td>Name of warden</td>
+	    	<td>Total capacity</td>
+	    	<td>Grade</td>
+	    	<td>Current number of prisoners</td>
 	 	</tr>
 	 	<tr>
 	 		<td>PRIMARY KEY, AUTO INCREMENT</td>
 	 		<td>NOT NULL</td>
-	 		<td></td>
+	 		<td>NOT NULL</td>
 	 		<td></td>
 	 		<td>NOT NULL</td>
 	 		<td></td>
-	 		<td></td>
-	 		<td></td>
-	 		<td></td>
+	 		<td>NOT NULL</td>
 	 	</tr>
 	</table>
-		Description:		Information about jails, correctional facilites and penetentiaries.
-		No. of Columns:		7
-		Columns:			ID, NAME, LOCATION, WARDEN, CAPACITY, GRADE, NO_OF_PRISONERS
-		Column Details:		ID:					(PRIMARY KEY, AUTO INCREMENT)
-							NAME:				Name of penetentiary. (NOT NULL)
-							LOCATION:			Location. (NOT NULL)
-							CAPACITY:			Total capacity. (NOT NULL)
-							GRADE:				Grade of the prison.
-							NO_OF_PRISONERS:	Current no. of prisoners. (NOT NULL)			
-
+		
 
 ------------------------------
 
