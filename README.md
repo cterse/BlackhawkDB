@@ -279,7 +279,7 @@ Let's follow some simple naming conventions and working techniques to ease the d
 <ol>
 	<li><a target="_blank" href="https://docs.oracle.com/cd/B19306_01/nav/portal_3.htm">Oracle Database Express Edition 10g Release 2 (10.2) Documentation</a></li>
 	<li><a target="_blank" href="http://www.techonthenet.com/oracle/index.php">Tech On The Net Oracle/PLSQL Tutorials</a></li>
-	<li><a href="http://docs.oracle.com/cd/B19306_01/em.102/b40004/cli.htm">Command Line Interface Concepts and Installation</a></li>
+	<li><a target="_blank" href="http://docs.oracle.com/cd/B19306_01/em.102/b40004/cli.htm">Command Line Interface Concepts and Installation</a></li>
 	<li>
 		YouTube Videos:
 		<ol>
