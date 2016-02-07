@@ -43,6 +43,27 @@ Let's follow some simple naming conventions and working techniques to ease the d
 
 - The database contains 5 tables:
 
+<table style="width:100%">
+  	<tr>
+	    <th>ID</th>
+	    <th>SSN</th> 
+	    <th>CRIME_NO</th>
+	    <th>SENTENCE</th>
+	    <th>STATUS</th>
+	    <th>ARRESTED_AT</th>
+	    <th>PEN_ID</th>
+  	</tr>
+  	<tr>
+    	<td></td>
+    	<td></td>
+    	<td></td>
+    	<td></td>
+    	<td></td>
+    	<td></td>
+    	<td></td>
+ 	</tr>
+</table>
+
 1.	criminal<br>
 		Description:		Contains criminal statistics.<br> 
 		No. of Columns:		7<br>
@@ -114,7 +135,5 @@ Let's follow some simple naming conventions and working techniques to ease the d
 4.	Confirm connection.
 
 <h4>Query to get database name in Oracle SQL:</h4>
-<div style="background:lavender;">
-	<p style="font-family:courier new,courier,monospace">SELECT * FROM v$database or SELECT ora_database_name FROM dual</p>
-</div>
+SELECT * FROM v$database or SELECT ora_database_name FROM dual
 
