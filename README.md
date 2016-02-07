@@ -43,7 +43,7 @@ Let's follow some simple naming conventions and working techniques to ease the d
 
 - The database contains 5 tables:
 
-1.	<b>criminal</b><br>
+	<b>1. criminal</b><br>
 	
 	<table>
 		<tr>
@@ -87,7 +87,7 @@ Let's follow some simple naming conventions and working techniques to ease the d
 	</table>
 	 			
 
-2.	<b>criminal_info</b><br>
+	<b>2. criminal_info</b><br>
 
 	<table>
 		<tr>
@@ -137,7 +137,7 @@ Let's follow some simple naming conventions and working techniques to ease the d
 	</table>
 
 
-3.	crime
+	<b>3. crime</b>
 
 	<table>
 		<tr>
@@ -174,7 +174,7 @@ Let's follow some simple naming conventions and working techniques to ease the d
 	 	</tr>
 	</table>
 
-4.	precinct
+	<b>4. precinct</b>
 
 	<table>
 		<tr>
@@ -211,7 +211,7 @@ Let's follow some simple naming conventions and working techniques to ease the d
 	 	</tr>
 	</table>
 
-5.	pen
+	<b>5. pen</b>
 
 	<table>
 		<tr>
