@@ -45,7 +45,7 @@ Let's follow some simple naming conventions and working techniques to ease the d
 
 1.	<b>criminal</b><br>
 	
-	<table border="0">
+	<table>
 		<tr>
 			<TD>Description:</TD>
 			<td>Information about criminal whereabouts and arrest details.</td>
@@ -56,50 +56,86 @@ Let's follow some simple naming conventions and working techniques to ease the d
 		</tr>
 	</table>
 
-<table border="0">
-  	<tr>
-	    <th>ID</th>
-	    <th>SSN</th> 
-	    <th>CRIME_NO</th>
-	    <th>SENTENCE</th>
-	    <th>STATUS</th>
-	    <th>ARRESTED_AT</th>
-	    <th>PEN_ID</th>
-  	</tr>
-  	<tr>
-    	<td>Simple ID</td>
-    	<td>Social Security Number</td>
-    	<td>ID of the crime committed</td>
-    	<td>Punishement announced</td>
-    	<td>Current status</td>
-    	<td>ID of precinct arrested at.</td>
-    	<td>ID of the penetentiary currently detained at</td>
- 	</tr>
- 	<tr>
- 		<td>PRIMARY KEY, AUTO INCREMENT</td>
- 		<td>FOREIGN KEY, NOT NULL</td>
- 		<td>FOREIGN KEY, NOT NULL</td>
- 		<td></td>
- 		<td></td>
- 		<td>FOREIGN KEY</td>
- 		<td>FOREIGN KEY</td>
- 	</tr>
-</table>
+	<table>
+	  	<tr>
+		    <th>ID</th>
+		    <th>SSN</th> 
+		    <th>CRIME_NO</th>
+		    <th>SENTENCE</th>
+		    <th>STATUS</th>
+		    <th>ARRESTED_AT</th>
+		    <th>PEN_ID</th>
+	  	</tr>
+	  	<tr>
+	    	<td>Simple ID</td>
+	    	<td>Social Security Number. Maps to CRIMINAL_INFO table</td>
+	    	<td>ID of the crime committed. Maps to CRIME table</td>
+	    	<td>Punishement announced</td>
+	    	<td>Current status</td>
+	    	<td>ID of precinct arrested at. Maps to PRECINCT table</td>
+	    	<td>ID of the penetentiary currently detained at. Maps to PEN table</td>
+	 	</tr>
+	 	<tr>
+	 		<td>PRIMARY KEY, AUTO INCREMENT</td>
+	 		<td>FOREIGN KEY, NOT NULL</td>
+	 		<td>FOREIGN KEY, NOT NULL</td>
+	 		<td></td>
+	 		<td></td>
+	 		<td>FOREIGN KEY</td>
+	 		<td>FOREIGN KEY</td>
+	 	</tr>
+	</table>
 	 			
 
 2.	<b>criminal_info</b><br>
-	&nbsp;&nbsp;&nbsp;&nbsp;Description:		Contains criminal's personal data.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;No. of Columns:		9<br>
-		Columns:			SSN, NAME, DOB, AGE, SEX, NATIONALITY, CURRENT_ADDRESS, CONTACT_NO, REMARKS<br>
-		Coumn Details:		SSN:				Social Security Number. (PRIMARY KEY, AUTO INCREMENT)<br> 
-							NAME:				Name. (NOT NULL)<br>
-							DOB:				Date of Birth.<br>
-							AGE:				Age.<br>
-							SEX:				Gender. (NOT NULL)<br>
-							NATIONALITY:		Nationality.<br>
-							CURRENT_ADDRESS:	Current place of residence.<br>
-							CONTACT_NO:			Contact number.<br>
-							REMARKS:			Extra remarks about the criminal.<br>
+
+	<table>
+		<tr>
+			<TD>Description:</TD>
+			<td>Personal information of the criminal.</td>
+		</tr>
+		<tr>
+			<td>No. of columns:</td>
+			<td>9</td>
+		</tr>
+	</table>
+
+	<table>
+	  	<tr>
+		    <th>SSN</th>
+		    <th>NAME</th> 
+		    <th>DOB</th>
+		    <th>AGE</th>
+		    <th>SEX</th>
+		    <th>NATIONALITY</th>
+		    <th>CURRENT_ADDRESS</th>
+		    <th>CONTACT_NO</th>
+		    <th>REMARKS</th>
+	  	</tr>
+	  	<tr>
+	    	<td>Social Security Number. Used as ID</td>
+	    	<td>Full Name</td>
+	    	<td>Date of birth</td>
+	    	<td>Age in years</td>
+	    	<td>Gender</td>
+	    	<td>Nationality</td>
+	    	<td>Cuurent address</td>
+	    	<td>Contact Number(s)</td>
+	    	<td>Remarks</td>
+	 	</tr>
+	 	<tr>
+	 		<td>PRIMARY KEY, AUTO INCREMENT</td>
+	 		<td>NOT NULL</td>
+	 		<td></td>
+	 		<td></td>
+	 		<td>NOT NULL</td>
+	 		<td></td>
+	 		<td></td>
+	 		<td></td>
+	 		<td></td>
+	 	</tr>
+	</table>
+
 
 3.	crime
 		Description:		Information about the crimes.
