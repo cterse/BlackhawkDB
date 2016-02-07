@@ -20,17 +20,19 @@ By Chinmay, Pratik and Rahul.
 <div id="conventions"></div>
 <h3>Conventions:</h3>
 
-Let's follow a particular naming convention and working technique to ease the development process.
+Let's follow some simple naming conventions and working techniques to ease the development process.
+<ol>
+<li>Always save the important queries which are executed successfully.</li>
 
-- Always save the important queries which are executed successfully.
+<li>Follow the naming convention strictly 
+  <li>A script.sql file containing code for creating a table should be named as [table-name]_table.sql</li>
+  <li>Table column names should always be named as [table-name]_[column_name]</li>
+</li>
 
-- Follow the naming convention strictly 
-  1.	A script.sql file containing code for creating a table should be named as [table-name]_table.sql
-  2.	Table column names should always be named as [table-name]_[column_name]
+<li>Always work on your own branch. Do not clutter the master branch.</li>
 
-- Always work on your own branch. Do not clutter the master branch.
-
-- Perform Push/Pull daily, even when you're not writing any new code.
+<li>Perform Push/Pull daily, even when you're not writing any new code.</li>
+</ol>
 
 ------------------------------
 
