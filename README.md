@@ -25,8 +25,10 @@ Let's follow some simple naming conventions and working techniques to ease the d
 <li>Always save the important queries which are executed successfully.</li>
 
 <li>Follow the naming convention strictly 
-  <li>A script.sql file containing code for creating a table should be named as [table-name]_table.sql</li>
-  <li>Table column names should always be named as [table-name]_[column_name]</li>
+	<ol>
+		<li>A script.sql file containing code for creating a table should be named as [table-name]_table.sql</li>
+  		<li>Table column names should always be named as [table-name]_[column_name]</li>
+	</ol>
 </li>
 
 <li>Always work on your own branch. Do not clutter the master branch.</li>
