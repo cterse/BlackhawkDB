@@ -278,7 +278,10 @@ Let's follow some simple naming conventions and working techniques to ease the d
 <div id="ref"></div>
 <h3>References:</h3>
 <ol>
-	<li><a target="_blank" href="https://docs.oracle.com/cd/B19306_01/nav/portal_3.htm">Oracle Database Express Edition 10g Release 2 (10.2) Documentation</a></li>
+	<li><a target="_blank" href="https://docs.oracle.com/cd/B19306_01/nav/portal_3.htm">Oracle Database Online Documentation
+10g Release 2 (10.2) Help Center</a></li>
+	<li><a target="_blank" href="http://www.oracle.com/pls/xe102/homepage">Oracle Database Online Documentation
+10g Release 2 (10.2)</a></li>
 	<li><a target="_blank" href="http://www.techonthenet.com/oracle/index.php">Tech On The Net Oracle/PLSQL Tutorials</a></li>
 	<li><a target="_blank" href="https://docs.oracle.com/cd/B25329_01/doc/appdev.102/b25108/xedev_sqlplus.htm">Oracle SQL Commmand Line Documentation</a></li>
 	<li>
