@@ -265,8 +265,9 @@ Let's follow some simple naming conventions and working techniques to ease the d
 	<li><h4>Connect To Database Via the Command Line:</h4></li>
 		1.	Go To c:\> in the cli.
 		2.	Type "set oracle_sid=[database-name]".
-		3.	Enter the username and password.
-		4.	Confirm connection.
+		3.	Enter sqlplus.
+		4.	Enter the username and password.
+		5.	Confirm connection.
 
 	<li><h4>Query to get database name in Oracle SQL:</h4></li>
 		SELECT * FROM v$database or SELECT ora_database_name FROM dual
@@ -279,7 +280,7 @@ Let's follow some simple naming conventions and working techniques to ease the d
 <ol>
 	<li><a target="_blank" href="https://docs.oracle.com/cd/B19306_01/nav/portal_3.htm">Oracle Database Express Edition 10g Release 2 (10.2) Documentation</a></li>
 	<li><a target="_blank" href="http://www.techonthenet.com/oracle/index.php">Tech On The Net Oracle/PLSQL Tutorials</a></li>
-	<li><a target="_blank" href="http://docs.oracle.com/cd/B19306_01/em.102/b40004/cli.htm">Command Line Interface Concepts and Installation</a></li>
+	
 	<li>
 		YouTube Videos:
 		<ol>
