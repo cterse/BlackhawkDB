@@ -273,7 +273,7 @@ Let's follow some simple naming conventions and working techniques to ease the d
 		SELECT * FROM v$database or SELECT ora_database_name FROM dual
 	<li><a target="_blank" href="https://www.youtube.com/watch?v=lxuL3KVmx1g&list=LLHI1smP33MvVV0id2htnf0g&index=1"><h4>Data Pump Export and Import Database Data</a></h4>
 		<ol>
-			<li><a href="https://www.youtube.com/watch?v=d893ahInVmY">Import in another schema</a></li>
+			<li><a target="_blank" href="https://www.youtube.com/watch?v=d893ahInVmY">Import in another schema</a></li>
 		</ol>
 	</li>
 </ol>

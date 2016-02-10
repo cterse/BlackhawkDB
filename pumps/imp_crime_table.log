@@ -1,0 +1,14 @@
+;;; 
+Import: Release 10.2.0.1.0 - Production on Thursday, 11 February, 2016 0:06:40
+
+Copyright (c) 2003, 2005, Oracle.  All rights reserved.
+;;; 
+Connected to: Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Master table "CHINMAY"."SYS_IMPORT_TABLE_01" successfully loaded/unloaded
+ORA-39146: schema "HR" does not exist
+Starting "CHINMAY"."SYS_IMPORT_TABLE_01":  chinmay/******** directory=temp_dp tables=crime dumpfile=crime_table.dmp logfile=imp_crime_table.log remap_schema=hr:chinmay; 
+Processing object type TABLE_EXPORT/TABLE/TABLE
+ORA-39151: Table "SYSTEM"."CRIME" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+Processing object type TABLE_EXPORT/TABLE/TABLE_DATA
+Processing object type TABLE_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Job "CHINMAY"."SYS_IMPORT_TABLE_01" completed with 1 error(s) at 00:06:43
