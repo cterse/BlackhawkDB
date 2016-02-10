@@ -271,7 +271,7 @@ Let's follow some simple naming conventions and working techniques to ease the d
 
 	<li><h4>Query to get database name in Oracle SQL:</h4></li>
 		SELECT * FROM v$database or SELECT ora_database_name FROM dual
-	<li><a href="https://www.youtube.com/watch?v=lxuL3KVmx1g&list=LLHI1smP33MvVV0id2htnf0g&index=1">Data Pump Export and Import Database Data</a><h4></h4></li>
+	<li><a target="_blank" href="https://www.youtube.com/watch?v=lxuL3KVmx1g&list=LLHI1smP33MvVV0id2htnf0g&index=1">Data Pump Export and Import Database Data</a><h4></h4></li>
 </ol>
 
 ------------------------------
