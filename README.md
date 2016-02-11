@@ -29,9 +29,12 @@ Let's follow some simple naming conventions and working techniques to ease the d
 <li>Follow the naming convention strictly 
 	<ol>
 		<li>A script.sql file containing code for creating a table should be named as [table-name]_table.sql</li>
+		<li>A script.sql file containing code for inserting data in tables should be named as [table-name]_data.sql</li>
   		<li>Table column names should always be named as [table-name]_[column_name]</li>
 	</ol>
 </li>
+
+<li>Always put a timestamp on the export data pumps. Followed by any specific details.</li>
 
 <li>Always work on your own branch. Do not clutter the master branch.</li>
 
