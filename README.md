@@ -148,7 +148,7 @@ Let's follow some simple naming conventions and working techniques to ease the d
 		</tr>
 		<tr>
 			<td>No. of columns:</td>
-			<td>9</td>
+			<td>5</td>
 		</tr>
 	</table>
 
