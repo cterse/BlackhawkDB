@@ -1,0 +1,186 @@
+;;; 
+Import: Release 10.2.0.1.0 - Production on Friday, 12 February, 2016 1:22:55
+
+Copyright (c) 2003, 2005, Oracle.  All rights reserved.
+;;; 
+Connected to: Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Master table "CHINMAY"."SYS_IMPORT_FULL_01" successfully loaded/unloaded
+Starting "CHINMAY"."SYS_IMPORT_FULL_01":  chinmay/******** directory=temp_dp DUMPFILE=c_schema.dmp LOGFILE=i_chinmay_schema.log REMAP_SCHEMA=SYSTEM:chinmay 
+Processing object type SCHEMA_EXPORT/USER
+ORA-31684: Object type USER:"CHINMAY" already exists
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SYNONYM/SYNONYM
+Processing object type SCHEMA_EXPORT/TYPE/TYPE_SPEC
+ORA-39083: Object type TYPE failed to create with error:
+ORA-02304: invalid object identifier literal
+Failing sql is:
+CREATE TYPE "CHINMAY"."REPCAT$_OBJECT_NULL_VECTOR"   OID '9832DE697C654A5C8E4616964CBF04D4' AS OBJECT
+(
+  -- type owner, name, hashcode for the type represented by null_vector
+  type_owner      VARCHAR2(30),
+  type_name       VARCHAR2(30),
+  type_hashcode   RAW(17),
+  -- null_vector for a particular object instance
+  -- ROBJ REVISIT: should only contain the null image, and not version#
+  n
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/PRE_TABLE_ACTION
+ORA-39083: Object type PRE_TABLE_ACTION failed to create with error:
+ORA-06550: line 2, column 2:
+PLS-00201: identifier 'SYS.DBMS_DEFER_IMPORT_INTERNAL' must be declared
+ORA-06550: line 2, column 2:
+PL/SQL: Statement ignored
+Failing sql is:
+BEGIN 
+ SYS.DBMS_DEFER_IMPORT_INTERNAL.QUEUE_IMPORT_CHECK('XE','IBMPC/WIN_NT-8.1.0');
+ END; 
+ORA-39083: Object type PRE_TABLE_ACTION failed to create with error:
+ORA-06550: line 2, column 2:
+PLS-00201: identifier 'SYS.DBMS_DEFER_IMPORT_INTERNAL' must be declared
+ORA-06550: line 2, column 2:
+PL/SQL: Statement ignored
+Failing sql is:
+BEGIN 
+ SYS.DBMS_DEFER_IMPORT_INTERNAL.QUEUE_IMPORT_CHECK('XE','IBMPC/WIN_NT-8.1.0');
+ END; 
+ORA-39083: Object type PRE_TABLE_ACTION failed to create with error:
+ORA-06550: line 2, column 2:
+PLS-00201: identifier 'SYS.DBMS_DEFER_IMPORT_INTERNAL' must be declared
+ORA-06550: line 2, column 2:
+PL/SQL: Statement ignored
+Failing sql is:
+BEGIN 
+ SYS.DBMS_DEFER_IMPORT_INTERNAL.QUEUE_IMPORT_CHECK('XE','IBMPC/WIN_NT-8.1.0');
+ END; 
+ORA-39083: Object type PRE_TABLE_ACTION failed to create with error:
+ORA-06550: line 2, column 2:
+PLS-00201: identifier 'SYS.DBMS_DEFER_IMPORT_INTERNAL' must be declared
+ORA-06550: line 2, column 2:
+PL/SQL: Statement ignored
+Failing sql is:
+BEGIN 
+ SYS.DBMS_DEFER_IMPORT_INTERNAL.QUEUE_IMPORT_CHECK('XE','IBMPC/WIN_NT-8.1.0');
+ END; 
+ORA-39083: Object type PRE_TABLE_ACTION failed to create with error:
+ORA-06550: line 2, column 2:
+PLS-00201: identifier 'SYS.DBMS_DEFER_IMPORT_INTERNAL' must be declared
+ORA-06550: line 2, column 2:
+PL/SQL: Statement ignored
+Failing sql is:
+BEGIN 
+ SYS.DBMS_DEFER_IMPORT_INTERNAL.QUEUE_IMPORT_CHECK('XE','IBMPC/WIN_NT-8.1.0');
+ END; 
+ORA-39083: Object type PRE_TABLE_ACTION failed to create with error:
+ORA-06550: line 2, column 2:
+PLS-00201: identifier 'SYS.DBMS_DEFER_IMPORT_INTERNAL' must be declared
+ORA-06550: line 2, column 2:
+PL/SQL: Statement ignored
+Failing sql is:
+BEGIN 
+ SYS.DBMS_DEFER_IMPORT_INTERNAL.QUEUE_IMPORT_CHECK('XE','IBMPC/WIN_NT-8.1.0');
+ END; 
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+. . imported "CHINMAY"."CRIMINAL"                        7.578 KB      18 rows
+. . imported "CHINMAY"."CRIMINAL_INFO"                   8.546 KB       9 rows
+. . imported "CHINMAY"."REPCAT$_AUDIT_ATTRIBUTE"         5.960 KB       2 rows
+. . imported "CHINMAY"."REPCAT$_OBJECT_TYPES"            6.515 KB      28 rows
+. . imported "CHINMAY"."REPCAT$_RESOLUTION_METHOD"       5.656 KB      19 rows
+. . imported "CHINMAY"."REPCAT$_TEMPLATE_STATUS"         5.304 KB       3 rows
+. . imported "CHINMAY"."REPCAT$_TEMPLATE_TYPES"          5.921 KB       2 rows
+. . imported "CHINMAY"."CRIME"                               0 KB       0 rows
+. . imported "CHINMAY"."DEF$_AQCALL"                         0 KB       0 rows
+. . imported "CHINMAY"."DEF$_AQERROR"                        0 KB       0 rows
+. . imported "CHINMAY"."DEF$_CALLDEST"                       0 KB       0 rows
+. . imported "CHINMAY"."DEF$_DEFAULTDEST"                    0 KB       0 rows
+. . imported "CHINMAY"."DEF$_DESTINATION"                    0 KB       0 rows
+. . imported "CHINMAY"."DEF$_ERROR"                          0 KB       0 rows
+. . imported "CHINMAY"."DEF$_LOB"                            0 KB       0 rows
+. . imported "CHINMAY"."DEF$_ORIGIN"                         0 KB       0 rows
+. . imported "CHINMAY"."DEF$_PROPAGATOR"                     0 KB       0 rows
+. . imported "CHINMAY"."DEF$_PUSHED_TRANSACTIONS"            0 KB       0 rows
+. . imported "CHINMAY"."DEF$_TEMP$LOB"                       0 KB       0 rows
+. . imported "CHINMAY"."HTMLDB_PLAN_TABLE"                   0 KB       0 rows
+. . imported "CHINMAY"."PEN"                                 0 KB       0 rows
+. . imported "CHINMAY"."PRECINCT"                            0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_AUDIT_COLUMN"                0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_COLUMN_GROUP"                0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_CONFLICT"                    0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_DDL"                         0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_EXCEPTIONS"                  0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_EXTENSION"                   0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_FLAVORS"                     0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_FLAVOR_OBJECTS"              0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_GENERATED"                   0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_GROUPED_COLUMN"              0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_INSTANTIATION_DDL"           0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_KEY_COLUMNS"                 0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_OBJECT_PARMS"                0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_PARAMETER_COLUMN"            0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_PRIORITY"                    0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_PRIORITY_GROUP"              0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_REFRESH_TEMPLATES"           0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_REPCAT"                      0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_REPCATLOG"                   0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_REPCOLUMN"                   0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_REPGROUP_PRIVS"              0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_REPOBJECT"                   0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_REPPROP"                     0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_REPSCHEMA"                   0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_RESOLUTION"                  0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_RESOLUTION_STATISTICS"       0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_RESOL_STATS_CONTROL"         0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_RUNTIME_PARMS"               0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_SITES_NEW"                   0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_SITE_OBJECTS"                0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_SNAPGROUP"                   0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_TEMPLATE_OBJECTS"            0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_TEMPLATE_PARMS"              0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_TEMPLATE_REFGROUPS"          0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_TEMPLATE_SITES"              0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_TEMPLATE_TARGETS"            0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_USER_AUTHORIZATIONS"         0 KB       0 rows
+. . imported "CHINMAY"."REPCAT$_USER_PARM_VALUES"            0 KB       0 rows
+. . imported "CHINMAY"."SQLPLUS_PRODUCT_PROFILE"             0 KB       0 rows
+Processing object type SCHEMA_EXPORT/TABLE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/TABLE/GRANT/CROSS_SCHEMA/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/PACKAGE/PACKAGE_SPEC
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Processing object type SCHEMA_EXPORT/PACKAGE/COMPILE_PACKAGE/PACKAGE_SPEC/ALTER_PACKAGE_SPEC
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/VIEW/VIEW
+Processing object type SCHEMA_EXPORT/VIEW/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/VIEW/GRANT/CROSS_SCHEMA/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/VIEW/COMMENT
+Processing object type SCHEMA_EXPORT/PACKAGE/PACKAGE_BODY
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
+ORA-39082: Object type TRIGGER:"CHINMAY"."DEF$_PROPAGATOR_TRIG" created with compilation warnings
+ORA-39082: Object type TRIGGER:"CHINMAY"."DEF$_PROPAGATOR_TRIG" created with compilation warnings
+ORA-39082: Object type TRIGGER:"CHINMAY"."REPCATLOGTRIG" created with compilation warnings
+ORA-39082: Object type TRIGGER:"CHINMAY"."REPCATLOGTRIG" created with compilation warnings
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/POST_TABLE_ACTION
+ORA-39083: Object type POST_TABLE_ACTION failed to create with error:
+ORA-24006: cannot create QUEUE, DEF$_AQCALL already exists
+Failing sql is:
+BEGIN 
+ SYS.DBMS_AQ_IMPORT_INTERNAL.AQ_TABLE_DEFN_UPDATE('SYSTEM','DEF$_AQCALL',2,16384,2,0,0,'', '-08:00');
+ SYS.DBMS_AQ_IMPORT_INTERNAL.AQ_DEFN_UPDATE(HEXTORAW('92662DE8ABE84C0C8C98316F44E32FD6'),'SYSTEM','DEF$_AQCALL','DEF$_AQCALL',0,5,0,1,0,'Deferred RPC Queue');
+ SYS.DBMS_AQ_IMPORT_INTERNAL.AQ_DEFN_UPDATE(HEXTORAW('948E84EF16294C9D86958066B1856053'),'SYSTEM'
+ORA-39083: Object type POST_TABLE_ACTION failed to create with error:
+ORA-24006: cannot create QUEUE, DEF$_AQERROR already exists
+Failing sql is:
+BEGIN 
+ SYS.DBMS_AQ_IMPORT_INTERNAL.AQ_TABLE_DEFN_UPDATE('SYSTEM','DEF$_AQERROR',2,16384,2,0,0,'', '-08:00');
+ SYS.DBMS_AQ_IMPORT_INTERNAL.AQ_DEFN_UPDATE(HEXTORAW('59465829241E47539F00264B89E040FE'),'SYSTEM','DEF$_AQERROR','DEF$_AQERROR',0,5,0,1,0,'Error Queue for Deferred RPCs');
+ SYS.DBMS_AQ_IMPORT_INTERNAL.AQ_DEFN_UPDATE(HEXTORAW('923FAA575A3C4A058B9FC11FE997
+Processing object type SCHEMA_EXPORT/POST_SCHEMA/PROCACT_SCHEMA
+Job "CHINMAY"."SYS_IMPORT_FULL_01" completed with 14 error(s) at 01:23:15
