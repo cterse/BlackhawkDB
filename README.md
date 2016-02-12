@@ -46,7 +46,7 @@ Let's follow some simple naming conventions and working techniques to ease the d
 <div id="structure"></div>
 <h3>Database Structure:</h3>
 
-- The database contains 5 tables:
+-  The database contains 5 tables:
 
 	<b>1. criminal</b><br>
 	
@@ -90,7 +90,7 @@ Let's follow some simple naming conventions and working techniques to ease the d
 	 		<td>FOREIGN KEY</td>
 	 	</tr>
 	</table>
-	 			
+	<img src="res/desc_criminal.png">
 
 	<b>2. criminal_info</b><br>
 
@@ -141,6 +141,7 @@ Let's follow some simple naming conventions and working techniques to ease the d
 	 	</tr>
 	</table>
 
+	<img src="res/desc_criminal_info.png">
 
 	<b>3. crime</b>
 
@@ -178,6 +179,8 @@ Let's follow some simple naming conventions and working techniques to ease the d
 	 		<td></td>	 		
 	 	</tr>
 	</table>
+
+	<img src="res/desc_crime.png">
 
 	<b>4. precinct</b>
 

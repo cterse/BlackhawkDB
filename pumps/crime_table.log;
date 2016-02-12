@@ -1,0 +1,18 @@
+;;; 
+Export: Release 10.2.0.1.0 - Production on Friday, 12 February, 2016 12:51:19
+
+Copyright (c) 2003, 2005, Oracle.  All rights reserved.
+;;; 
+Connected to: Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Starting "SYSTEM"."SYS_EXPORT_TABLE_01":  SYSTEM/******** tables=crime DIRECTORY=temp_dp DUMPFILE=crime_table.dmp LOGFILE=crime_table.log; 
+Estimate in progress using BLOCKS method...
+Processing object type TABLE_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 64 KB
+Processing object type TABLE_EXPORT/TABLE/TABLE
+Processing object type TABLE_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+. . exported "SYSTEM"."CRIME"                            7.187 KB      20 rows
+Master table "SYSTEM"."SYS_EXPORT_TABLE_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for SYSTEM.SYS_EXPORT_TABLE_01 is:
+  F:\STUDY\SEM6\DD\MINIPROJECT\CRIME_TABLE.DMP
+Job "SYSTEM"."SYS_EXPORT_TABLE_01" successfully completed at 12:51:27
