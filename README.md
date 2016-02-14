@@ -224,7 +224,7 @@ Let's follow some simple naming conventions and working techniques to ease the d
 	<table>
 		<tr>
 			<TD>Description:</TD>
-			<td>Information about the penetentiaries.</td>
+			<td>Information about the penitentiaries.</td>
 		</tr>
 		<tr>
 			<td>No. of columns:</td>
