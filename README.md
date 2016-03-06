@@ -140,7 +140,7 @@ Let's follow some simple naming conventions and working techniques to ease the d
 	 		<td></td>
 	 	</tr>
 	</table>
-
+	
 	<img src="res/desc_criminal_info.png">
 
 	<b>3. crime</b>
@@ -219,6 +219,8 @@ Let's follow some simple naming conventions and working techniques to ease the d
 	 	</tr>
 	</table>
 
+	<img src="res/desc_precinct.png">
+
 	<b>5. pen</b>
 
 	<table>
@@ -263,6 +265,7 @@ Let's follow some simple naming conventions and working techniques to ease the d
 	 	</tr>
 	</table>
 		
+	<img src="res/desc_pen.png">
 
 ------------------------------
 
