@@ -9,7 +9,7 @@ insert into precinct values(8,'Ellen DeGenres','New York, New York',156,38);
 insert into precinct values(9,'Conrad Sewell','Cincinnati, Ohio',99,29);
 insert into precinct values(10,'Daniel Radcliffe','Phoenix, Arizona',79,22);
 insert into precinct values(11,'Ashley Tisdale','Pittsburgh, Pennsylvania',88,24);
-insert into precinct values(12,'Doug Perry','Salt Lake City, Utah',98,29)
+insert into precinct values(12,'Doug Perry','Salt Lake City, Utah',98,29);
 insert into precinct values(13,'Angelina Valentine','New Jersey, New Jersey',198,37);
 insert into precinct values(14,'Dolan Trumb','Washington DC, Virginia',148,35);
 insert into precinct values(15,'Pearce Ronin','New Orleans, Lousiana',100,40);
