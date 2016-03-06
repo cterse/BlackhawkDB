@@ -1,0 +1,20 @@
+1,Tommy Hilfiger,"Langley, Virginia",198,34
+2,Toby Maguire,"Boston, Massachussets",154,27
+3,Anna Karenina,"Long Island, New York",116,30
+4,Daniel Craig,"London, England",144,29
+5,Diana Kruger,"Los Angeles, California",84,20
+6,Roger Smith,"Miama, Florida",106,28
+7,Kevin Peitersen,"Atlanta, Georgia",100,31
+8,Ellen DeGenres,"New York, New York",156,38
+9,Conrad Sewell,"Cincinnati, Ohio",99,29
+10,Daniel Radcliffe,"Phoenix, Arizona",79,22
+11,Ashley Tisdale,"Pittsburgh, Pennsylvania",88,24
+12,Doug Perry,"Salt Lake City, Utah",98,29
+13,Angelina Valentine,"New Jersey, New Jersey",198,37
+14,Dolan Trumb,"Washington DC, Virginia",148,35
+15,Pearce Ronin,"New Orleans, Lousiana",100,40
+16,Tyler Samson,"Portland, Oregon",120,42
+17,Phucdat Beach,"Trollsburgh, Nevada",79,22
+18,Rek Sai,"The Void, Freelos",55,3
+19,Johnny Boons,"Dallas, Texas",27,7
+20,Ronald McDonald,"Kansas City, Kansas",47,9

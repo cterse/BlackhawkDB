@@ -1,0 +1,9 @@
+1,Chinmay Terse,1995-08-14T00:00:00,,m,Indian,"Mumbai, India",9969983949,Awesomeness Personified
+2,Rahul Agarwal,1994-09-10T00:00:00,,m,Indian,"Mumbai, India",9969669040,Businessman
+3,Pratik Kshirsagar,1995-09-30T00:00:00,,m,Indian,"Mumbai, India",9820770430,Extreme Gamer
+4,Shreya Joshi,1995-08-14T00:00:00,,f,Indian,"Mumbai, India",9833450158,Indian Idol winner. NOT A MAHARASHTRIAN! Khatarnaak Joker
+5,Rachana Ramesh,1995-08-14T00:00:00,,f,Indian,"Mumbai, India",8879421779,"Vidya Maams favourite student, Coz andugunguthandapaani"
+6,Pradnyesh Baikar,1995-08-14T00:00:00,,m,Indian,"Mumbai, India",9102035652,CEO of GarmaGaram.com. Print guy. Also acts as a stand. Not a Biker
+7,Shafqat Ali Barkat Ali Haji Ali Khan,1995-08-14T00:00:00,,m,Indian,"Mumbai, India",9920880602,HAR. ROZ. CHICKEN. Freaking Awesome man!
+8,Abhishek Tiwari,1995-08-14T00:00:00,,m,Indian,"Mumbai, India",9860667630,"OHU. But knows Mumbai better than most Mumbaikars. Potential Army candidate. Known only as Tiwari, wont respond to Abhishek."
+9,Yogesh Kolhatkar,1995-08-14T00:00:00,,m,Indian,"Mumbai, India",8793376923,From Malkapur. Always talking crap. Give him a tapli whenever spotted.

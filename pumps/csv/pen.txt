@@ -1,0 +1,10 @@
+1,Blackgate,"New York, New York",Lewis Gordon,2000,5,1316
+2,Alcatraz,"San Francisco, California",Benjamin Buttonn,1500,5,1201
+3,Walnuts,"Las Vegas, Nevada",Ronnie Screwvala,5500,3,3001
+4,Redlight,"Atlanta, Georgia",Barrak Pompala,4600,3,2007
+5,Angel Wings,"Honolulu, Hawaii",Raul Sanchez,4200,4,2890
+6,Sunset Hills,"Chicago, Illinois",James Brooke,1200,2,810
+7,Dawnbreak Heights,"Orlando, Florida",Jay Zee,1250,2,675
+8,Braveheart Asylum,"Anchorage, Alaska",Darius Noxiac,450,1,75
+9,Steelpunk Retreat,"Tucson, Arizona",Yuvraj Agrawal,250,1,175
+10,Bittersweet Gates,"New Jersey, New Jersey",Chunkey Pandey,350,1,205
