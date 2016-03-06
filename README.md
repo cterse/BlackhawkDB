@@ -1,5 +1,7 @@
 # BlackhawkDB
 
+<img src="res/logo.png" height="260" width="325">
+
 The official DDBMS repository.
 
 Created in Oracle 10g Express Edition Database.
