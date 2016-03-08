@@ -1,0 +1,10 @@
+;;; 
+Export: Release 10.2.0.1.0 - Production on Tuesday, 08 March, 2016 22:23:06
+
+Copyright (c) 2003, 2005, Oracle.  All rights reserved.
+;;; 
+Connected to: Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+ORA-39000: bad dump file specification
+ORA-31641: unable to create dump file "h:\Chinmay\Sem 6\DDBMS\BlackhawkDB\pumps\c_schema.dmp"
+ORA-27038: created file already exists
+OSD-04010: <create> option specified, file already exists
